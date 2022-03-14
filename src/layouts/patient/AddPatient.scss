@@ -1,0 +1,70 @@
+body {
+    background-color: #E5E5E5;
+  }
+
+.navbar-sub{
+    background-color: white;
+    padding-left: 0;
+    height: 68px;
+    box-shadow: 5px 12px 19px 17px rgba(217, 217, 217, 0.25);
+}
+
+.main-heading{
+    padding-top: 43px;
+    padding-left: 43px;
+    padding-bottom: 43px;
+}
+
+.form-group{
+    padding-left: 43px;
+}
+
+.text-box{
+    width: 500px;
+    padding-bottom: 30px;
+}
+
+.btn-cancel{
+    width: 107px;
+    height: 40px;
+    margin-left: 211px;
+    border-radius: 5px;
+    border-color: #1C7876;
+;
+}
+
+.input-date{
+    border: none;
+    height: 40px;
+    color: gray;
+}
+
+.add-patient {
+    .btn-save{
+    width: 107px;
+    height: 40px;
+    margin-left: 50px;
+    margin-top: 0px;
+    border-radius: 5px;
+    background-color: #1C7876;
+    border: none ;
+    }
+}
+
+.btn-group{
+    padding-bottom: 100px;
+}
+
+.col-form-label{
+    font-weight: bold;
+}
+
+.react-datepicker-wrapper,
+.react-datepicker__input-container,
+.react-datepicker__input-container input {
+    display: block;
+    width: 50%;
+    height: 35px;
+    border: 1px #ced4da;
+    border-radius: 0.25rem;
+}

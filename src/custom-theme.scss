@@ -1,0 +1,16 @@
+// Override default variables before the import
+$primary:  #1C7876;
+$secondary : #DA4960;
+$dark: #11294B;
+$info: #7CA1D4;
+
+$gray-200 : #F5F9FE;
+
+$theme-colors: (
+  "primary":$primary,
+  "danger": $secondary,
+  "dark": $dark,
+);
+
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
